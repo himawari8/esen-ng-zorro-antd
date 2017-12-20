@@ -11,12 +11,12 @@ import { NzDemoProgressLineDynamicComponent } from './nz-demo-progress-line-dyna
 import { NzDemoProgressFormatComponent } from './nz-demo-progress-format.component';
 import { NzDemoProgressComponent } from './nz-demo-progress.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoProgressRoutingModule } from './nz-demo-progress.routing.module';
 
 @NgModule({
-  imports     : [ FormsModule, NzDemoProgressRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ FormsModule, NzDemoProgressRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoProgressBasicComponent, NzDemoProgressCircleComponent, NzDemoProgressLineMiniComponent, NzDemoProgressCircleMiniComponent, NzDemoProgressCircleDynamicComponent, NzDemoProgressLineDynamicComponent, NzDemoProgressFormatComponent, NzDemoProgressComponent ]
 })
 export class NzDemoProgressModule {

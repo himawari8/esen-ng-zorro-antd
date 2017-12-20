@@ -8,12 +8,12 @@ import { NzDemoMessageLoadingComponent } from './nz-demo-message-loading.compone
 import { NzDemoMessageComponent } from './nz-demo-message.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoMessageRoutingModule } from './nz-demo-message.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoMessageRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoMessageRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoMessageBasicComponent, NzDemoMessageDurationComponent, NzDemoMessageIconComponent, NzDemoMessageLoadingComponent, NzDemoMessageComponent ]
 })
 export class NzDemoMessageModule {

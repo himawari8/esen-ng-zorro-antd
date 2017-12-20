@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
 import { NzDemoTransferComponent } from './nz-demo-transfer.component';
@@ -12,7 +12,7 @@ import { NzDemoTransferAdvancedComponent } from './nz-demo-transfer-advanced.com
 import { NzDemoTransferCustomItemComponent } from './nz-demo-transfer-custom-item.component';
 
 @NgModule({
-  imports     : [ NzDemoTransferRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoTransferRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoTransferComponent, NzDemoTransferBasicComponent, NzDemoTransferSearchComponent, NzDemoTransferAdvancedComponent, NzDemoTransferCustomItemComponent ]
 })
 export class NzDemoTransferModule {

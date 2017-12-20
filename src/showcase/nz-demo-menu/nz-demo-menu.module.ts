@@ -11,12 +11,12 @@ import { NzDemoMenuThemeComponent } from './nz-demo-menu-theme.component';
 import { NzDemoMenuDynamicComponent } from './nz-demo-menu-dynamic.component';
 import { NzDemoMenuComponent } from './nz-demo-menu.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoMenuRoutingModule } from './nz-demo-menu.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoMenuRoutingModule,
     CommonModule,
     FormsModule,

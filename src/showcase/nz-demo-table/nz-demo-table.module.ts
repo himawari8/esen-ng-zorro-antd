@@ -20,12 +20,12 @@ import { NzDemoTableSizeComponent } from './nz-demo-table-size.component';
 import { NzDemoTableComponent } from './nz-demo-table.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoTableRoutingModule } from './nz-demo-table.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoTableRoutingModule, FormsModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoTableRoutingModule, FormsModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoTableExpandTreeComponent, NzDemoTableExpandComponent, NzDemoTableCustomFilterComponent, NzDemoTableEditComponent, NzDemoTableComponent, NzDemoTableFixedHeaderComponent, NzDemoTableColspanRowspanComponent, NzDemoTableBasicComponent, NzDemoTableResetFilterComponent, NzDemoTableSelectionComponent, NzDemoTableSelectionAndOperationComponent, NzDemoTableSelectionPropsComponent, NzDemoTablePagingComponent, NzDemoTableAjaxComponent, NzDemoTableNoPaginationComponent, NzDemoTableSizeComponent ]
 })
 export class NzDemoTableModule {

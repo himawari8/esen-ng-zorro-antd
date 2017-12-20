@@ -6,7 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule, PreloadAllModules } from '@angular/router';
 import { routes } from './app.routing.module';
 import { AppComponent } from './app.component';
-import { NgZorroAntdModule, NZ_MESSAGE_CONFIG, NZ_NOTIFICATION_CONFIG } from '../../index.showcase';
+import { EsenNgZorroAntdModule, NZ_MESSAGE_CONFIG, NZ_NOTIFICATION_CONFIG } from '../../index.showcase';
 import { NzCodeBoxModule } from './share/nz-codebox/nz-codebox.module';
 import { NzHighlightModule } from './share/nz-highlight/nz-highlight.module';
 
@@ -22,7 +22,7 @@ import { NZ_LOCALE, enUS } from '../../index.showcase';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    NgZorroAntdModule.forRoot({ extraFontName: 'anticon', extraFontUrl: './assets/fonts/iconfont' }),
+    EsenNgZorroAntdModule.forRoot({ extraFontName: 'anticon', extraFontUrl: './assets/fonts/iconfont' }),
     NzCodeBoxModule,
     NzHighlightModule,
     RouterModule.forRoot(routes, { useHash: true, preloadingStrategy: PreloadAllModules })

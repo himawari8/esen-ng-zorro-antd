@@ -11,11 +11,11 @@ import { NzDemoTagCheckableComponent, NzDemoMyTagComponent } from './nz-demo-tag
 import { NzDemoTagComponent } from './nz-demo-tag.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoTagRoutingModule } from './nz-demo-tag.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoTagRoutingModule, CommonModule, FormsModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoTagRoutingModule, CommonModule, FormsModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [
     NzDemoTagComponent,
     NzDemoTagBasicComponent,

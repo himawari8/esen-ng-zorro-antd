@@ -15,12 +15,12 @@ import { NzDemoFormLayoutComponent } from './nz-demo-form-layout.component';
 import { NzDemoFormComponent } from './nz-demo-form.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoFormRoutingModule } from './nz-demo-form.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoFormRoutingModule, CommonModule, ReactiveFormsModule, FormsModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoFormRoutingModule, CommonModule, ReactiveFormsModule, FormsModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoFormLayoutComponent, NzDemoFormDynamicComponent, NzDemoFormLoginComponent, NzDemoFormComponent, NzDemoFormInlineComponent, NzDemoFormHorizontalComponent, NzDemoFormMixComponent, NzDemoFormValidateComponent, NzDemoFormValidateDynamicComponent, NzDemoFormAdvancedComponent ]
 })
 export class NzDemoFormModule {

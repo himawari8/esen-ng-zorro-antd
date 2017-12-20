@@ -9,12 +9,12 @@ import { NzDemoCollapseCustomComponent } from './nz-demo-collapse-custom.compone
 
 import { NzDemoCollapseComponent } from './nz-demo-collapse.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoCollapseRoutingModule } from './nz-demo-collapse.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoCollapseRoutingModule,
     CommonModule,
     NzCodeBoxModule

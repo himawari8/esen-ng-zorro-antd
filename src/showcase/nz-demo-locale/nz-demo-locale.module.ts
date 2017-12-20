@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { NzMarkdownModule } from '../share/nz-markdown/nz-markdown.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
 import { NzDemoLocaleComponent } from './nz-demo-locale.component';
@@ -17,7 +17,7 @@ import { NzDemoLocaleAllComponent, NzDemoLocaleAllPageComponent } from './nz-dem
       { path: '', component: NzDemoLocaleComponent },
     ]),
     NzMarkdownModule,
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzCodeBoxModule,
   ],
   declarations: [

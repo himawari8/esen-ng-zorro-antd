@@ -9,12 +9,12 @@ import { NzDemoCalendarContentComponent } from './nz-demo-calendar-content.compo
 import { NzDemoCalendarComponent } from './nz-demo-calendar.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoCalendarRoutingModule } from './nz-demo-calendar.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoCalendarRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoCalendarRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoCalendarComponent, NzDemoCalendarBasicComponent, NzDemoCalendarCardComponent, NzDemoCalendarLocaleComponent, NzDemoCalendarContentComponent ]
 })
 export class NzDemoCalendarModule {

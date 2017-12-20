@@ -7,12 +7,12 @@ import { NzDemoTooltipPositionComponent } from './nz-demo-tooltip-position.compo
 import { NzDemoTooltipTemplateComponent } from './nz-demo-tooltip-template.component';
 import { NzDemoTooltipComponent } from './nz-demo-tooltip.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoTooltipRoutingModule } from './nz-demo-tooltip.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoTooltipRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoTooltipRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoTooltipBasicComponent, NzDemoTooltipComponent, NzDemoTooltipPositionComponent, NzDemoTooltipTemplateComponent ]
 })
 export class NzDemoTooltipModule {

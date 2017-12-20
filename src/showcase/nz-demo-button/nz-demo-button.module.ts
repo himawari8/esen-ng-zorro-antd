@@ -12,12 +12,12 @@ import { NzDemoButtonGhostComponent } from './nz-demo-button-ghost.component';
 import { NzDemoButtonMultipleComponent } from './nz-demo-button-multiple.component';
 import { NzDemoButtonComponent } from './nz-demo-button.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoButtonRoutingModule } from './nz-demo-button.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoButtonRoutingModule,
     CommonModule,
     FormsModule,

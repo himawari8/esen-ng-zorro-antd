@@ -8,12 +8,12 @@ import { NzDemoRadioButtonGroupSizeComponent } from './nz-demo-radio-button-grou
 import { NzDemoRadioGroupDisabledComponent } from './nz-demo-radio-group-disabled.component';
 import { NzDemoRadioComponent } from './nz-demo-radio.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoRadioRoutingModule } from './nz-demo-radio.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoRadioRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoRadioRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoRadioGroupComponent, NzDemoRadioButtonGroupComponent, NzDemoRadioButtonGroupSizeComponent, NzDemoRadioGroupDisabledComponent, NzDemoRadioComponent ]
 })
 export class NzDemoRadioModule {

@@ -15,12 +15,12 @@ import { NzDemoGridResponsiveMoreComponent } from './nz-demo-grid-responsive-mor
 import { NzDemoGridComponent } from './nz-demo-grid.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoGridRoutingModule } from './nz-demo-grid.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoGridRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoGridRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoGridResponsiveMoreComponent, NzDemoGridGutterConfigComponent, NzDemoGridFlexOrderComponent, NzDemoGridBasicComponent, NzDemoGridGutterComponent, NzDemoGridOffsetComponent, NzDemoGridSortComponent, NzDemoGridFlexComponent, NzDemoGridFlexAlignComponent, NzDemoGridResponsiveComponent, NzDemoGridComponent ]
 })
 export class NzDemoGridModule {

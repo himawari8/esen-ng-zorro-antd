@@ -15,11 +15,11 @@ import { NzDemoCascaderReactiveFormComponent } from './nz-demo-cascader-reactive
 
 import { NzDemoCascaderComponent } from './nz-demo-cascader.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoCascaderRoutingModule } from './nz-demo-cascader.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoCascaderRoutingModule, CommonModule, FormsModule, ReactiveFormsModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoCascaderRoutingModule, CommonModule, FormsModule, ReactiveFormsModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [
     NzDemoCascaderComponent,
     NzDemoCascaderBasicComponent,

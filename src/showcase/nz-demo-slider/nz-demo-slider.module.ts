@@ -12,12 +12,12 @@ import { NzDemoSliderVerticalComponent } from './nz-demo-slider-vertical.compone
 import { NzDemoSliderMarkComponent } from './nz-demo-slider-mark.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoSliderRoutingModule } from './nz-demo-slider.routing.module';
 
 @NgModule({
-  imports: [ CommonModule, FormsModule, NgZorroAntdModule, NzCodeBoxModule, NzDemoSliderRoutingModule ],
+  imports: [ CommonModule, FormsModule, EsenNgZorroAntdModule, NzCodeBoxModule, NzDemoSliderRoutingModule ],
   declarations: [
     NzDemoSliderComponent,
     NzDemoSliderBasicComponent,

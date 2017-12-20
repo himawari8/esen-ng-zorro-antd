@@ -9,7 +9,7 @@ import { NZ_LOCALE, enUS } from 'ng-zorro-antd';
 
 @NgModule({
   ...
-  imports     : [ NgZorroAntdModule.forRoot() ],
+  imports     : [ EsenNgZorroAntdModule.forRoot() ],
   providers   : [ { provide: NZ_LOCALE, useValue: enUS } ], // 这里设置当前全局使用的语言包
 })
 export class AppModule { }

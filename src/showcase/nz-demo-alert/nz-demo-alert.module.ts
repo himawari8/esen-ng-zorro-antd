@@ -10,15 +10,14 @@ import { NzDemoAlertIconCloseComponent } from './nz-demo-alert-icon-close.compon
 import { NzDemoAlertSelfCloseComponent } from './nz-demo-alert-self-close.component';
 import { NzDemoAlertComponent } from './nz-demo-alert.component';
 
-
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoAlertRoutingModule } from './nz-demo-alert.routing.module';
 
 @NgModule({
   declarations: [ NzDemoAlertComponent, NzDemoAlertBasicComponent, NzDemoAlert4TypeComponent, NzDemoAlertCloseableComponent, NzDemoAlert4TypeMessageComponent, NzDemoAlertIconCloseComponent, NzDemoAlertSelfCloseComponent, NzDemoAlertIconComponent ],
-  imports     : [ NzDemoAlertRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ]
+  imports     : [ NzDemoAlertRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ]
 })
 export class NzDemoAlertModule {
 

@@ -1,11 +1,11 @@
 import { async, TestBed } from '@angular/core/testing';
-import { NgZorroAntdModule, NzRootConfig, NZ_ROOT_CONFIG } from './ng-zorro-antd.module';
+import { EsenNgZorroAntdModule, NzRootConfig, NZ_ROOT_CONFIG } from './ng-zorro-antd.module';
 
-describe('NgZorroAntdModule with Angular integration', () => {
+describe('EsenNgZorroAntdModule with Angular integration', () => {
   it('should not provide root config with empty forRoot', async(() => {
     TestBed.configureTestingModule({
       imports: [
-        NgZorroAntdModule.forRoot(),
+        EsenNgZorroAntdModule.forRoot(),
       ],
     }).compileComponents();
 
@@ -17,7 +17,7 @@ describe('NgZorroAntdModule with Angular integration', () => {
 
     TestBed.configureTestingModule({
       imports: [
-        NgZorroAntdModule.forRoot(options),
+        EsenNgZorroAntdModule.forRoot(options),
       ],
     }).compileComponents();
 

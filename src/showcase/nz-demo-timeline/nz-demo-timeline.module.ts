@@ -5,14 +5,14 @@ import {NzCodeBoxModule} from '../share/nz-codebox/nz-codebox.module';
 
 import {NzDemoTimelineComponent} from './nz-demo-timeline.component';
 import {NzDemoTimelineBasicComponent} from './nz-demo-timeline-basic.component';
-import {NgZorroAntdModule} from '../../../index.showcase';
+import {EsenNgZorroAntdModule} from '../../../index.showcase';
 import {NzDemoTimelineRoutingModule} from './nz-demo-timeline-routing.module';
 import {NzDemoTimelineColorComponent} from './nz-demo-timeline-color.component';
 import {NzDemoTimelinePendingComponent} from './nz-demo-timeline-pending.component';
 import {NzDemoTimelineCustomComponent} from './nz-demo-timeline-custom.component';
 
 @NgModule({
-  imports: [FormsModule, CommonModule, NgZorroAntdModule, NzCodeBoxModule, NzDemoTimelineRoutingModule],
+  imports: [FormsModule, CommonModule, EsenNgZorroAntdModule, NzCodeBoxModule, NzDemoTimelineRoutingModule],
   declarations: [
     NzDemoTimelineComponent,
     NzDemoTimelineBasicComponent,

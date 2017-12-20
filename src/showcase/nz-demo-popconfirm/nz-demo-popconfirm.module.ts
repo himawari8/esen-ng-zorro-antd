@@ -9,12 +9,12 @@ import { NzDemoPopconfirmKickComponent } from './nz-demo-popconfirm-kick.compone
 import { NzDemoPopconfirmComponent } from './nz-demo-popconfirm.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoPopconfirmRoutingModule } from './nz-demo-popconfirm.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoPopconfirmRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoPopconfirmRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoPopconfirmBasicComponent, NzDemoPopconfirmLocalComponent, NzDemoPopconfirmLocationComponent, NzDemoPopconfirmKickComponent, NzDemoPopconfirmComponent ]
 })
 export class NzDemoPopconfirmModule {

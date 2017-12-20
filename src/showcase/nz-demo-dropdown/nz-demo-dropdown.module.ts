@@ -12,12 +12,12 @@ import { NzDemoDropDownHideComponent } from './nz-demo-dropdown-hide.component';
 import { NzDemoDropDownButtonComponent } from './nz-demo-dropdown-button.component';
 import { NzDemoDropDownComponent } from './nz-demo-dropdown.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoDropDownRoutingModule } from './nz-demo-dropdown.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoDropDownRoutingModule,
     CommonModule,
     FormsModule,

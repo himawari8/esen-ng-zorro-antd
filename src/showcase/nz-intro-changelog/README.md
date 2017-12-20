@@ -382,7 +382,7 @@ VTHINKXIE, Wilson Zeng, chensimeng, zjgzx1988, SunMing, fbchen, Trotyl Yu, 雪�
 * `Tabs`组件重构，使用方法改变，具体见组件页面介绍
 * `Select`组件不再支持位置选项，改为自动布局
 * `Popover`和`Popconfirm`和`DropDown`重构，使用方法改变，具体组件页面介绍
-* 根Module组件需要使用` NgZorroAntdModule.forRoot()`方法，不再需要手动在`Providers`中加入`  NzContextMenuService,NzMessageService,NzNotificationService`
+* 根Module组件需要使用` EsenNgZorroAntdModule.forRoot()`方法，不再需要手动在`Providers`中加入`  NzContextMenuService,NzMessageService,NzNotificationService`
 
 
 

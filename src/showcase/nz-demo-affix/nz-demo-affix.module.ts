@@ -7,13 +7,13 @@ import { NzDemoAffixContainerComponent } from './nz-demo-affix-container.compone
 import { NzDemoAffixComponent } from './nz-demo-affix.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoAffixRoutingModule } from './nz-demo-affix.routing.module';
 
 @NgModule({
   declarations: [ NzDemoAffixComponent, NzDemoAffixBasicComponent, NzDemoAffixFixedComponent, NzDemoAffixContainerComponent ],
-  imports     : [ NzDemoAffixRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ]
+  imports     : [ NzDemoAffixRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ]
 })
 export class NzDemoAffixModule {
 

@@ -11,12 +11,12 @@ import { NzDemoCardInnerComponent } from './nz-demo-card-inner.component';
 import { NzDemoCardLoadingComponent } from './nz-demo-card-loading.component';
 import { NzDemoCardComponent } from './nz-demo-card.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoCardRoutingModule } from './nz-demo-card.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoCardRoutingModule,
     CommonModule,
     FormsModule,

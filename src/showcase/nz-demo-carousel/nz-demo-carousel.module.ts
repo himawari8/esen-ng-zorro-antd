@@ -8,12 +8,12 @@ import { NzDemoCarouselFadeComponent } from './nz-demo-carousel-fade.component';
 import { NzDemoCarouselAutoComponent } from './nz-demo-carousel-auto.component';
 import { NzDemoCarouselComponent } from './nz-demo-carousel.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoCarouselRoutingModule } from './nz-demo-carousel.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoCarouselRoutingModule,
     CommonModule,
     FormsModule,

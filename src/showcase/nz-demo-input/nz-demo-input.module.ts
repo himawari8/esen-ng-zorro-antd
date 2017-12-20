@@ -13,12 +13,12 @@ import { NzDemoInputAffixComponent } from './nz-demo-input-affix.component';
 import { NzDemoInputComponent } from './nz-demo-input.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoInputRoutingModule } from './nz-demo-input.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoInputRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoInputRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoInputComponent, NzDemoInputBasicComponent, NzDemoInputSizeComponent, NzDemoInputAddOnComponent, NzDemoInputGroupComponent, NzDemoInputSearchComponent, NzDemoInputTextareaComponent, NzDemoInputTextareaAutoSizeComponent, NzDemoInputAffixComponent ]
 })
 export class NzDemoInputModule {

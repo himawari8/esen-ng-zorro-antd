@@ -12,12 +12,12 @@ import { NzDemoBadgeStatusComponent } from './nz-demo-badge-status.component';
 import { NzDemoBadgeComponent } from './nz-demo-badge.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoBadgeRoutingModule } from './nz-demo-badge.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoBadgeRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoBadgeRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoBadgeComponent, NzDemoBadgeComponent, NzDemoBadgeBasicComponent, NzDemoBadgeStandAlonesComponent, NzDemoBadgeOverFlowComponent, NzDemoBadgeClickAbleComponent, NzDemoBadgeDotComponent, NzDemoBadgeAnimateComponent, NzDemoBadgeMyCeilComponent, NzDemoBadgeStatusComponent ]
 })
 export class NzDemoBadgeModule {

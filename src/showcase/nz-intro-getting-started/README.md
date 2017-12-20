@@ -40,7 +40,7 @@ $ npm install ng-zorro-antd --save
 
 直接用下面的代码替换 `/src/app/app.module.ts` 的内容
 
-> **注意**：在根 module 中需要使用 `NgZorroAntdModule.forRoot()`，在子 module 需要使用 `NgZorroAntdModule` 
+> **注意**：在根 module 中需要使用 `EsenNgZorroAntdModule.forRoot()`，在子 module 需要使用 `EsenNgZorroAntdModule` 
 
 ```typescript
 import { BrowserModule } from '@angular/platform-browser';
@@ -48,7 +48,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { NgZorroAntdModule } from 'ng-zorro-antd';
+import { EsenNgZorroAntdModule } from 'ng-zorro-antd';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -60,7 +60,7 @@ import { AppComponent } from './app.component';
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NgZorroAntdModule.forRoot()
+    EsenNgZorroAntdModule.forRoot()
   ],
   bootstrap: [AppComponent]
 })
@@ -69,7 +69,7 @@ export class AppModule { }
 ```
 这样就成功在全局引入了 ng-zorro-antd。
 
-> `NgZorroAntdModule.forRoot()` 方法能够接受一个可选的配置对象，用于引入外部的字体文件，类型为 `{ extraFontName: string, extraFontUrl: string }`。
+> `EsenNgZorroAntdModule.forRoot()` 方法能够接受一个可选的配置对象，用于引入外部的字体文件，类型为 `{ extraFontName: string, extraFontUrl: string }`。
 
 用下面的代码替换 `/src/app/app.component.html`
 

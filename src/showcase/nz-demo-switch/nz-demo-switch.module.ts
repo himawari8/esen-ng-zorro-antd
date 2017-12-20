@@ -8,12 +8,12 @@ import { NzDemoSwitchTextComponent } from './nz-demo-switch-text.component';
 import { NzDemoSwitchSizeComponent } from './nz-demo-switch-size.component';
 import { NzDemoSwitchComponent } from './nz-demo-switch.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoSwitchRoutingModule } from './nz-demo-switch.routing.module';
 
 @NgModule({
-  imports     : [ FormsModule, NzDemoSwitchRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ FormsModule, NzDemoSwitchRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoSwitchBasicComponent, NzDemoSwitchDisabledComponent, NzDemoSwitchTextComponent, NzDemoSwitchSizeComponent, NzDemoSwitchComponent ]
 })
 export class NzDemoSwitchModule {

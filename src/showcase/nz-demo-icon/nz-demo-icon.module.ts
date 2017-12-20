@@ -8,10 +8,10 @@ import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
 import { NzDemoIconRoutingModule } from './nz-demo-icon.routing.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 @NgModule({
-  imports     : [ NzDemoIconRoutingModule, NzMarkdownModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoIconRoutingModule, NzMarkdownModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoIconComponent, NzIconCopyDirective ]
 })
 export class NzDemoIconModule {

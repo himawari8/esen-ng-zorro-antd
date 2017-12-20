@@ -7,13 +7,13 @@ import { NzDemoAnchorComponent } from './nz-demo-anchor.component';
 
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoAnchorRoutingModule } from './nz-demo-anchor.routing.module';
 
 @NgModule({
   declarations: [ NzDemoAnchorComponent, NzDemoAnchorBasicComponent, NzDemoAnchorFixedComponent ],
-  imports     : [ NzDemoAnchorRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ]
+  imports     : [ NzDemoAnchorRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ]
 })
 export class NzDemoAnchorModule {
 

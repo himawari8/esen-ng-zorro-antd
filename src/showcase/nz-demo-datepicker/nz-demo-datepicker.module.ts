@@ -12,12 +12,12 @@ import { NzDemoDatePickerStartEndComponent } from './nz-demo-datepicker-start-en
 import { NzDemoDatePickerComponent } from './nz-demo-datepicker.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoDatePickerRoutingModule } from './nz-demo-datepicker.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoDatePickerRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
+  imports     : [ NzDemoDatePickerRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule ],
   declarations: [ NzDemoDatePickerComponent, NzDemoDatePickerBasicComponent, NzDemoDatePickerFormatterComponent, NzDemoDatePickerSizeComponent, NzDemoDatePickerDisabledComponent, NzDemoDatePickerTimeComponent, NzDemoDatePickerDisableDateComponent, NzDemoDatePickerStartEndComponent ]
 })
 export class NzDemoDatePickerModule {

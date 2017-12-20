@@ -14,7 +14,7 @@ import { NzDemoTabsOperationComponent } from './nz-demo-tabs-operation.component
 import { NzDemoTabsComponent } from './nz-demo-tabs.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoTabsRoutingModule } from './nz-demo-tabs.routing.module';
 
@@ -23,7 +23,7 @@ import { NzDemoTabsRoutingModule } from './nz-demo-tabs.routing.module';
     FormsModule,
     CommonModule,
     NzCodeBoxModule,
-    NgZorroAntdModule ],
+    EsenNgZorroAntdModule ],
   declarations: [
     NzDemoTabsBasicComponent,
     NzDemoTabsComponent,

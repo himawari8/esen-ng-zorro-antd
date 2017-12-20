@@ -7,12 +7,12 @@ import { NzDemoBreadCrumbIconComponent } from './nz-demo-breadcrumb-icon.compone
 import { NzDemoBreadCrumbSeparatorComponent } from './nz-demo-breadcrumb-separator.component';
 import { NzDemoBreadCrumbComponent } from './nz-demo-breadcrumb.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoBreadCrumbRoutingModule } from './nz-demo-breadcrumb.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoBreadCrumbRoutingModule,
     CommonModule,
     FormsModule,

@@ -8,13 +8,13 @@ import { NzDemoAvatarBadgeComponent } from './nz-demo-avatar-badge.component';
 import { NzDemoAvatarComponent } from './nz-demo-avatar.component';
 
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoAvatarRoutingModule } from './nz-demo-avatar.routing.module';
 
 @NgModule({
   declarations: [ NzDemoAvatarComponent, NzDemoAvatarBasicComponent, NzDemoAvatarTypeComponent, NzDemoAvatarAutoSizeComponent, NzDemoAvatarBadgeComponent ],
-  imports     : [ NzDemoAvatarRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ]
+  imports     : [ NzDemoAvatarRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ]
 })
 export class NzDemoAvatarModule {
 }

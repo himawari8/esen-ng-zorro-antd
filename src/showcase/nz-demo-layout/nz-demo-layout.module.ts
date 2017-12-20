@@ -11,12 +11,12 @@ import { NzDemoLayoutTriggerComponent } from './nz-demo-layout-trigger.component
 import { NzDemoLayoutResponsiveComponent } from './nz-demo-layout-responsive.component';
 import { NzDemoLayoutComponent } from './nz-demo-layout.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoLayoutRoutingModule } from './nz-demo-layout.routing.module';
 
 @NgModule({
   imports     : [
-    NgZorroAntdModule,
+    EsenNgZorroAntdModule,
     NzDemoLayoutRoutingModule,
     CommonModule,
     FormsModule,

@@ -6,7 +6,7 @@
     "adjacent-overload-signatures": true,
     "align": [
       true,
-      "parameters", 
+      "parameters",
       "statements",
       "members",
       "elements"
@@ -15,7 +15,7 @@
     "arrow-return-shorthand": true,
     "ban-comma-operator": true,
     "ban-types": [
-      true, 
+      true,
       ["Object", "Use {} instead."],
       ["String", "Use string instead."],
       ["Number", "Use number instead."],
@@ -92,10 +92,10 @@
     "no-conditional-assignment": true,
     "no-construct": true,
     "no-debugger": true,
-    "no-duplicate-imports": true,
+    "no-duplicate-imports": false,
     "no-duplicate-super": true,
     "no-empty": [
-      false, 
+      false,
       "allow-empty-catch"
     ],
     "no-empty-interface": true,
@@ -141,7 +141,7 @@
     ],
     "one-variable-per-declaration": [true, "ignore-for-loop"],
     "ordered-imports": [
-      true,
+      false,
       {
         "import-sources-order": "lowercase-last",
         "grouped-imports": true,
@@ -165,7 +165,7 @@
       "always"
     ],
     "trailing-comma": [
-      true, 
+      true,
       {"multiline": "ignore", "singleline": "never"}
     ],
     "triple-equals": [
@@ -173,9 +173,9 @@
       "allow-null-check"
     ],
     "typedef": [
-      true, 
-      "call-signature", 
-      "parameter", 
+      true,
+      "call-signature",
+      "parameter",
       "property-declaration"
     ],
     "typedef-whitespace": [

@@ -10,12 +10,12 @@ import { NzDemoPaginationSimpleComponent } from './nz-demo-pagination-simple.com
 import { NzDemoPaginationTotalComponent } from './nz-demo-pagination-total.component';
 import { NzDemoPaginationComponent } from './nz-demo-pagination.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoPaginationRoutingModule } from './nz-demo-pagination.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoPaginationRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoPaginationRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoPaginationBasicComponent, NzDemoPaginationMoreComponent, NzDemoPaginationChangerComponent, NzDemoPaginationJumpComponent, NzDemoPaginationMiniComponent, NzDemoPaginationSimpleComponent, NzDemoPaginationTotalComponent, NzDemoPaginationComponent ]
 })
 export class NzDemoPaginationModule {

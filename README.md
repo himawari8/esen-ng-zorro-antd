@@ -32,7 +32,7 @@ An enterprise-class UI components based on Ant Design and Angular.
 ## Install
 
 ```bash
-$ npm install ng-zorro-antd --save
+$ npm install esen-ng-zorro-antd --save
 ```
 
 ## Development

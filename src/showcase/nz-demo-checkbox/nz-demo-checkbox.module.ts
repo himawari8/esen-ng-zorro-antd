@@ -9,11 +9,11 @@ import { NzDemoCheckboxGroupComponent } from './nz-demo-checkbox-group.component
 import { NzDemoCheckboxIndeterminateComponent } from './nz-demo-checkbox-indeterminate.component';
 import { NzDemoCheckboxComponent } from './nz-demo-checkbox.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzDemoCheckboxRoutingModule } from './nz-demo-checkbox.routing.module';
 
 @NgModule({
-  imports     : [ NzDemoCheckboxRoutingModule, CommonModule, FormsModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoCheckboxRoutingModule, CommonModule, FormsModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoCheckboxComponent, NzDemoCheckboxBasicComponent, NzDemoCheckboxDisabledComponent, NzDemoCheckboxControllerComponent, NzDemoCheckboxGroupComponent, NzDemoCheckboxIndeterminateComponent ]
 })
 export class NzDemoCheckboxModule {

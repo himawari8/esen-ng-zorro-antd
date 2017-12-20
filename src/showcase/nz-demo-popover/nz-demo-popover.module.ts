@@ -8,11 +8,11 @@ import { NzDemoPopoverClickHideComponent } from './nz-demo-popover-clickhide.com
 import { NzDemoPopoverComponent } from './nz-demo-popover.component';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 
 import { NzDemoPopoverRoutingModule } from './nz-demo-popover.routing.module';
 @NgModule({
-  imports     : [ NzDemoPopoverRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule ],
+  imports     : [ NzDemoPopoverRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule ],
   declarations: [ NzDemoPopoverBasicComponent, NzDemoPopoverLocationComponent, NzDemoPopoverTriggerComponent, NzDemoPopoverClickHideComponent, NzDemoPopoverComponent ]
 })
 export class NzDemoPopoverModule {
