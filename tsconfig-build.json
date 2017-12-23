@@ -13,13 +13,13 @@
     ]
   },
   "files": [
-    "./src/__gen_components/ng-zorro-antd.module.ts"
+    "./src/__gen_components/esen-ng-zorro-antd.module.ts"
   ],
   "angularCompilerOptions": {
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "flatModuleOutFile": "index.js",
-    "flatModuleId": "ng-zorro-antd",
+    "flatModuleId": "esen-ng-zorro-antd",
     "skipTemplateCodegen": true
   }
 }

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { EsenNgZorroAntdModule } from 'ng-zorro-antd';
+import { EsenNgZorroAntdModule } from 'esen-ng-zorro-antd';
 
 import { AppComponent } from './app.component';
 

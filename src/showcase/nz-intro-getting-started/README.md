@@ -32,10 +32,10 @@ $ ng new PROJECT-NAME
 
 ### 3. 使用组件
 
-现在项目下安装 ng-zorro-antd
+现在项目下安装 esen-ng-zorro-antd
 ```bash
 $ cd PROJECT_NAME
-$ npm install ng-zorro-antd --save
+$ npm install esen-ng-zorro-antd --save
 ```
 
 直接用下面的代码替换 `/src/app/app.module.ts` 的内容
@@ -48,7 +48,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { EsenNgZorroAntdModule } from 'ng-zorro-antd';
+import { EsenNgZorroAntdModule } from 'esen-ng-zorro-antd';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -67,7 +67,7 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 
 ```
-这样就成功在全局引入了 ng-zorro-antd。
+这样就成功在全局引入了 esen-ng-zorro-antd。
 
 > `EsenNgZorroAntdModule.forRoot()` 方法能够接受一个可选的配置对象，用于引入外部的字体文件，类型为 `{ extraFontName: string, extraFontUrl: string }`。
 

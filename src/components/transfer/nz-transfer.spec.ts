@@ -5,7 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NzButtonModule } from '../button/nz-button.module';
-import { NzTransferModule } from '../ng-zorro-antd.module';
+import { NzTransferModule } from '../esen-ng-zorro-antd.module';
 import { TransferItem } from './item';
 import { NzTransferComponent } from './nz-transfer.component';
 

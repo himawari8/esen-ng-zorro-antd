@@ -32,7 +32,7 @@
     "@angular/router": "file:lib/@angular/router",
     "core-js": "file:lib/core-js",
     "moment": "file:lib/moment",
-    "ng-zorro-antd": "file:lib/ng-zorro-antd",
+    "esen-ng-zorro-antd": "file:lib/esen-ng-zorro-antd",
     "rxjs": "file:lib/rxjs",
     "zone.js": "file:lib/zone.js"
   },
