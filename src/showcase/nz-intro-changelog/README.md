@@ -9,6 +9,98 @@
 
 更新日志也可以在[Github](https://github.com/NG-ZORRO/ng-zorro-antd/releases)查看
 
+# 0.6.15
+`2018-02-25`
+
+目前主要精力在 0.7.0 新版本的开发，可以在 [0.7.0分支](https://github.com/NG-ZORRO/ng-zorro-antd/tree/0.7.0) 追踪我们的[进度](https://github.com/NG-ZORRO/ng-zorro-antd/blob/0.7.0/PROGRESS.md)
+
+0.6.x的版本发布频率会略微减慢，感谢理解
+
+### Bug Fixes
+
+* `Upload` 修复部分状态不更新的问题 [#1039](https://github.com/NG-ZORRO/ng-zorro-antd/pull/1039) [@cipchk](https://github.com/cipchk)
+* `DatePicker` 修复样式及浏览器兼容性问题 [#1045](https://github.com/NG-ZORRO/ng-zorro-antd/pull/1045) [#1047](https://github.com/NG-ZORRO/ng-zorro-antd/pull/1047) [@Hsuan Lee](https://github.com/HsuanXyz)
+
+
+# 0.6.14
+`2018-02-04`
+
+### Features
+
+* `Table` 表格新增水平滚动配置的支持 [#766](https://github.com/NG-ZORRO/ng-zorro-antd/pull/766) [@little-snow-fox](https://github.com/little-snow-fox)
+
+### Bug Fixes
+
+* `InputNumber` 修复零值显示不正确的问题 [#1003](https://github.com/NG-ZORRO/ng-zorro-antd/pull/1003) [@Hsuan Lee](https://github.com/HsuanXyz)
+* `Calendar` / `Datepicker` 修复年月显示切换的问题 [#871](https://github.com/NG-ZORRO/ng-zorro-antd/pull/871) [@chunghha](https://github.com/chunghha)
+
+### Tests
+
+* `Affix` 新增完善单例测试 [#982](https://github.com/NG-ZORRO/ng-zorro-antd/pull/982) [@pjurczynski](https://github.com/pjurczynski)
+
+# 0.6.13
+`2018-01-28`
+
+### Bug Fixes
+
+* `Alert` 修复 `[alert-description]` 不生效的问题 [#980](https://github.com/NG-ZORRO/ng-zorro-antd/pull/980)
+* `Menu` 修复初始状态收起的展示问题 [#979](https://github.com/NG-ZORRO/ng-zorro-antd/pull/979)
+* `DatePicker` 修复下拉菜单在浏览器边缘的显示问题 [#966](https://github.com/NG-ZORRO/ng-zorro-antd/pull/966) [@Hsuan Lee](https://github.com/HsuanXyz)
+* `Select` 修复 label title的显示问题 [#928](https://github.com/NG-ZORRO/ng-zorro-antd/pull/928) [@Hsuan Lee](https://github.com/HsuanXyz)
+
+# 0.6.12
+
+`2018-01-20`
+
+### HotFix
+* 修复 `Upload` 引入 `HttpClientModule` 导致 `HttpInterceptor` 失效的问题 [#931](https://github.com/NG-ZORRO/ng-zorro-antd/pull/931) [@cipchk](https://github.com/cipchk)
+* 将文档系统中 `highlight.js` 替换为 `prismjs` 解决 travis ci 失效问题 [#932](https://github.com/NG-ZORRO/ng-zorro-antd/pull/932)
+
+
+# 0.6.11
+`2018-01-18`
+
+### Features
+* `Upload` 新组件 [@cipchk](https://github.com/cipchk)
+* `InputNumber` 组件新增 `nzAllowClear` 选项支持用户清除数据 [#918](https://github.com/NG-ZORRO/ng-zorro-antd/pull/918)
+* `Input` 组件新增 `nzOnSearch` 事件 [#876](https://github.com/NG-ZORRO/ng-zorro-antd/pull/876) [@Hsuan Lee](https://github.com/HsuanXyz)
+
+### Bug Fixes
+* `Radio` 修复冗余的 `ngModelChange` 触发问题 [#904](https://github.com/NG-ZORRO/ng-zorro-antd/pull/904) [@SangKa.Z](https://github.com/SangKa)
+* `Progress` 修复空值状态下的百分比展示 [#905](https://github.com/NG-ZORRO/ng-zorro-antd/pull/905) [@cipchk](https://github.com/cipchk)
+* `DatePicker` `TimePicker` 修复用户输入的问题 [#856](https://github.com/NG-ZORRO/ng-zorro-antd/pull/856) [@Billy Ma](https://github.com/KennethMa)
+
+### Other
+* `BackTop` 组件增加测试用例 [#907](https://github.com/NG-ZORRO/ng-zorro-antd/pull/907) [@Piotr Jurczyński](https://github.com/pjurczynski)
+* `Collapse` 与Ant Design保持同步 [#881](https://github.com/NG-ZORRO/ng-zorro-antd/pull/881)
+
+## 0.6.10
+`2018-01-06`
+
+### Bug Fixes
+* `Radio` 修复 disabled 状态下的问题 [#867](https://github.com/NG-ZORRO/ng-zorro-antd/pull/867)
+* `Affix` 修复 `nzOffsetTop` 选项的问题 [#868](https://github.com/NG-ZORRO/ng-zorro-antd/pull/868)
+
+### Features
+* `Datapicker` 新增 时间范围 组件 [@HsuanXyz](https://github.com/HsuanXyz) [#656](https://github.com/NG-ZORRO/ng-zorro-antd/pull/656)
+* 增加 俄语 i18n选项 [@zverbeta](https://github.com/zverbeta) [#853](https://github.com/NG-ZORRO/ng-zorro-antd/pull/853)
+
+## 0.6.9
+`2018-01-02`
+
+### Features
+* `Radio` 组件支持独立作为表单控件使用 [#825](https://github.com/NG-ZORRO/ng-zorro-antd/pull/825) [@cipchk](https://github.com/cipchk)
+* `Transfer` 新增 `canMove` 属性用于支持二次校验，并改用OnPush方式支持按需脏检查 [#824](https://github.com/NG-ZORRO/ng-zorro-antd/pull/824) [@cipchk](https://github.com/cipchk)
+
+### Bug Fixes
+* `Transfer` 修复点击全选时未能及时更新ui的问题，将 `ArrayObservable.of` 改用 `of`
+
+### Build
+* 支持html模板代码存放到独立文件中 [#831](https://github.com/NG-ZORRO/ng-zorro-antd/pull/831) [@trotyl](https://github.com/trotyl)
+
+### Docs
+* demo文档内，示例代码的格式和语法调整 [#733](https://github.com/NG-ZORRO/ng-zorro-antd/pull/733) [@HsuanXyz](https://github.com/HsuanXyz)
+
 ## 0.6.8
 `2017-12-21`
 

@@ -34,6 +34,8 @@ export const zhCN: NzLocale = {
     chooseDate: '选择日期',
     chooseTimePlease: '请选择时间',
     chooseDatePlease: '请选择日期',
+    chooseStartDatePlease: '开始日期',
+    chooseEndDatePlease: '结束日期',
     thisMoment: '此刻',
     today: '今天',
     ok: '确 定',
@@ -59,5 +61,12 @@ export const zhCN: NzLocale = {
     searchPlaceholder: '请输入',
     itemUnit: '项目',
     itemsUnit: '项目',
+  },
+
+  Upload: {
+    uploading: '文件上传中',
+    removeFile: '删除文件',
+    uploadError: '上传错误',
+    previewFile: '预览文件',
   }
 };

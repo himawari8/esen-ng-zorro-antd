@@ -34,6 +34,8 @@ export const trTR: NzLocale = {
     chooseDate: 'Tarih seçin',
     chooseTimePlease: 'Saat seçin',
     chooseDatePlease: 'Tarih seçin',
+    chooseStartDatePlease: 'Başlangıç tarihi',
+    chooseEndDatePlease: 'Bitiş tarihi',
     thisMoment: 'Şimdi',
     today: 'Bugün',
     ok: 'Tamam',
@@ -59,5 +61,12 @@ export const trTR: NzLocale = {
     searchPlaceholder: 'Burada ara',
     itemUnit: 'öğe',
     itemsUnit: 'öğeler',
+  },
+
+  Upload: {
+    uploading: 'Yükleniyor...',
+    removeFile: `Dosyayı kaldır`,
+    uploadError: 'Yükleme Hatası',
+    previewFile: `Dosyayı Önizle`,
   }
 };

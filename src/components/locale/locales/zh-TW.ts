@@ -34,6 +34,8 @@ export const zhTW: NzLocale = {
     chooseDate: '選擇日期',
     chooseTimePlease: '请選擇時間',
     chooseDatePlease: '请選擇日期',
+    chooseStartDatePlease: '開始日期',
+    chooseEndDatePlease: '結束日期',
     thisMoment: '此刻',
     today: '今天',
     ok: '確 定',
@@ -59,5 +61,12 @@ export const zhTW: NzLocale = {
     searchPlaceholder: '搜尋資料',
     itemUnit: '項目',
     itemsUnit: '項目',
+  },
+
+  Upload: {
+    uploading: '正在上傳...',
+    removeFile: '刪除檔案',
+    uploadError: '上傳失敗',
+    previewFile: '檔案預覽',
   }
 };

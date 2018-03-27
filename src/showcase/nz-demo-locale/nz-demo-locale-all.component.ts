@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { zhCN, enUS, trTR, zhTW, NzModalService, NzLocaleService } from '../../../index.showcase';
+import { zhCN, ruRU, enUS, trTR, zhTW, NzModalService, NzLocaleService } from '../../../index.showcase';
 
 @Component({
   selector: 'nz-demo-locale-all',
@@ -12,6 +12,7 @@ import { zhCN, enUS, trTR, zhTW, NzModalService, NzLocaleService } from '../../.
           <label nz-radio-button [nzValue]="zhTW"><span>繁体</span></label>
           <label nz-radio-button [nzValue]="trTR"><span>Turkish</span></label>
           <label nz-radio-button [nzValue]="enUS"><span>English</span></label>
+          <label nz-radio-button [nzValue]="ruRU"><span>Russian</span></label>
         </nz-radio-group>
       </div>
 
@@ -28,6 +29,9 @@ import { zhCN, enUS, trTR, zhTW, NzModalService, NzLocaleService } from '../../.
       <ng-container *ngIf="locale === zhTW">
         <ng-container *ngTemplateOutlet="tplLocale"></ng-container>
       </ng-container>
+      <ng-container *ngIf="locale === ruRU">
+        <ng-container *ngTemplateOutlet="tplLocale"></ng-container>
+      </ng-container>
       <ng-template #tplLocale>
         <nz-demo-locale-all-page></nz-demo-locale-all-page>
       </ng-template>
@@ -39,6 +43,7 @@ export class NzDemoLocaleAllComponent implements OnInit {
   enUS = enUS;
   zhTW = zhTW;
   trTR = trTR;
+  ruRU = ruRU;
 
   _locale;
   get locale() {
@@ -73,6 +78,7 @@ export class NzDemoLocaleAllComponent implements OnInit {
         </nz-select>
         <nz-datepicker></nz-datepicker>
         <nz-timepicker></nz-timepicker>
+        <nz-rangepicker></nz-rangepicker>
       </div>
       <div class="example">
         <button nz-button [nzType]="'primary'" (click)="showModal()">Show Modal</button>
@@ -82,7 +88,7 @@ export class NzDemoLocaleAllComponent implements OnInit {
           <a nz-popconfirm>Click to confirm</a>
         </nz-popconfirm>
       </div>
-      <nz-calendar [nzFullScreen]="false" style="width: 319px; border: 1px solid #d9d9d9; borderRadius: 4px;"></nz-calendar>
+      <nz-calendar [nzFullScreen]="false" style="width: 319px; border: 1px solid #d9d9d9; border-radius: 4px;"></nz-calendar>
       <div class="example">
         <nz-table #nzTable [nzDataSource]="[]">
           <thead nz-thead>

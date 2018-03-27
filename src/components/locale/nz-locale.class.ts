@@ -33,6 +33,8 @@ export class NzLocale {
     chooseDate: string;
     chooseTimePlease: string;
     chooseDatePlease: string;
+    chooseStartDatePlease: string;
+    chooseEndDatePlease: string;
     thisMoment: string;
     today: string;
     ok: string;
@@ -58,5 +60,12 @@ export class NzLocale {
     searchPlaceholder: string,
     itemUnit: string,
     itemsUnit: string,
+  };
+
+  Upload: {
+    uploading: string,
+    removeFile: string,
+    uploadError: string,
+    previewFile: string,
   };
 }
