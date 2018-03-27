@@ -2,7 +2,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { NgZorroAntdModule } from '../../../index.showcase';
+import { EsenNgZorroAntdModule } from '../../../index.showcase';
 import { NzCodeBoxModule } from '../share/nz-codebox/nz-codebox.module';
 
 import { NzDemoUploadComponent } from './nz-demo-upload.component';
@@ -17,17 +17,17 @@ import { NzDemoUploadDragComponent } from './nz-demo-upload-drag.component';
 import { NzDemoUploadManuallyComponent } from './nz-demo-upload-manually.component';
 
 @NgModule({
-  imports     : [ NzDemoUploadRoutingModule, CommonModule, NzCodeBoxModule, NgZorroAntdModule, FormsModule ],
-  declarations: [ NzDemoUploadComponent,
-                  NzDemoUploadBasicComponent,
-                  NzDemoUploadAvatarComponent,
-                  NzDemoUploadFileListComponent,
-                  NzDemoUploadPictureCardComponent,
-                  NzDemoUploadFilterComponent,
-                  NzDemoUploadPictureStyleComponent,
-                  NzDemoUploadDragComponent,
-                  NzDemoUploadManuallyComponent
-                ]
+  imports: [NzDemoUploadRoutingModule, CommonModule, NzCodeBoxModule, EsenNgZorroAntdModule, FormsModule],
+  declarations: [NzDemoUploadComponent,
+    NzDemoUploadBasicComponent,
+    NzDemoUploadAvatarComponent,
+    NzDemoUploadFileListComponent,
+    NzDemoUploadPictureCardComponent,
+    NzDemoUploadFilterComponent,
+    NzDemoUploadPictureStyleComponent,
+    NzDemoUploadDragComponent,
+    NzDemoUploadManuallyComponent
+  ]
 })
 export class NzDemoUploadModule {
 
